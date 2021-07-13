@@ -1,0 +1,3 @@
+`protected function get_merged_markup()`
+
+This method is not intended to be directly called. It is used by the [build_component()](/docs/method-layout/methods/build_component()), [get_header_markup()](/docs/method-layout/methods/get_header_markup()), and [get_footer_markup()](/docs/method-layout/methods/get_footer_markup()) methods to generate merged markup from the $html, $scripts, and $modal properties when the $standalone argument has been passed as _true_ to the [init_page()](/docs/method-layout/methods/init_page()) method.

@@ -1,0 +1,3 @@
+`protected function reset_markup()`
+
+This method is not intended to be directly called. It is used by the [build_component()](/docs/method-layout/methods/build_component()), [get_header_markup()](/docs/method-layout/methods/get_header_markup()), and [get_footer_markup()](/docs/method-layout/methods/get_footer_markup()) methods to reset the values of the $html, $scripts, and $modal class properties.
