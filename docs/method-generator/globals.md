@@ -85,23 +85,23 @@ _Default: `[{ name: "header_bg", width: 1400, height: 600, cropped: true }]`_
 In this section, you'll choose whether or not to require the installation of certain plugins upon theme activation.
 
 - **require_cmb2**  
-_(bool)_ Whether or not to require the CMB2 plugin. It is highly recommended to keep this set as _true_.  
+_(bool)_ Whether or not to require the [CMB2](https://wordpress.org/plugins/cmb2/) plugin. It is highly recommended to keep this set as _true_.  
 _Default: true_  
 
 - **require_classic_editor**  
-_(bool)_ Whether or not to require the Classic Editor plugin, which will disable the Gutenberg editor.  
+_(bool)_ Whether or not to require the [Classic Editor](https://wordpress.org/plugins/classic-editor/) plugin, which will disable the Gutenberg editor.  
 _Default: false_  
 
 - **require_github_updater**  
-_(bool)_ Whether or not to require the GitHub Updater plugin.  
+_(bool)_ Whether or not to require the [GitHub Updater](https://github.com/afragen/git-updater) plugin.  
 _Default: false_  
 
 - **require_cmb2_roadway_segments**  
-_(bool)_ Whether or not to require the CMB2 Roadway Segments plugin, which adds a custom CMB2 field type for Google Maps.  
+_(bool)_ Whether or not to require the [CMB2 Roadway Segments](https://github.com/pixelwatt/cmb2-roadway-segments) plugin, which adds a custom CMB2 field type for Google Maps.  
 _Default: false_  
 
 - **require_cmb2_mapbox**  
-_(bool)_ Whether or not to require the CMB2 Mapbox plugin, which adds a custom CMB2 field type for Mapbox.  
+_(bool)_ Whether or not to require the [CMB2 Mapbox](https://github.com/pixelwatt/cmb2-mapbox) plugin, which adds a custom CMB2 field type for Mapbox.  
 _Default: false_  
 
 ***
@@ -129,18 +129,18 @@ Default: "MethodThemeLayout"_
 Options in this section which scripts to include in the theme's `scripts` gulp task. Please note that you'll need to install dev dependencies and run `gulp scripts` for any of the options below to be reflected, or for any of the bundled Javascript libraries to work in general.
 
 - **js_use_matchheight**  
-_(bool)_ Whether or not jQuery MatchHeight should be included in the theme's combined scripts file.  
+_(bool)_ Whether or not [jQuery matchHeight](https://github.com/liabru/jquery-match-height) should be included in the theme's combined scripts file.  
 _Default: true_  
 
 - **js_use_jarallax**  
-_(bool)_ Whether or not Jarallax should be included in the theme's combined scripts file.  
+_(bool)_ Whether or not [Jarallax](https://github.com/nk-o/jarallax) should be included in the theme's combined scripts file.  
 _Default: true_  
 
 ***
 
 ## Common CSS Classes
 
-In this section, you'll provide common CSS classes that you'd like to be made available via the theme_get_class() function.
+In this section, you'll provide common CSS classes that you'd like to be made available via the [method_get_class()](/docs/other-references/helper-functions#method_get_class-class-) function.
 
 - **css_classes**  
 _(array)_ An array of css classes and the ID to refrence them by when using the theme_get_class() function.  
