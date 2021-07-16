@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/front-icon-bootstrap.svg').default,
     description: (
       <>
-        Method includes Bootstrap 5, importing the source SASS files directly into the theme stylesheet, so you can quickly buold a responsive frontend.
+        Method includes Bootstrap 5, importing the source SASS files directly into the theme stylesheet, so you can quickly build a responsive frontend.
       </>
     ),
   },

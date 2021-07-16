@@ -10,7 +10,7 @@ Format tags allow content editors to format select content with a limited set of
 
 ## Currently-Supported Tags
   
-- **\[strong\]...\[/strong\]**
+- **\[strong\]...\[/strong\]**  
 This tag allows you to bold portions of text by wrapping the desired text in `[strong]...[/strong]`.  
 _(Ex: "I want \[strong\]this\[/strong\] to be bold.")_  
   
@@ -22,7 +22,7 @@ _(Ex: "I want \[em\]this\[/em\] to be italic.")_
 This tags allows you to insert a line break. Use `[br]` for the line break to appear on all devices, `[mbr]` for the line break to only appear on mobile, and `[dbr]` for the break to only appear on desktop.  
 _(Ex: "I want this text on line 1,\[br\]and this text on line 2.")_
 
-The availity to add and document additional tags without the need to directly modify the Method_Layout class will be implemented in an upcoming release.
+The ability to add and document additional tags without the need to directly modify the Method_Layout class will be implemented in an upcoming release.
 
 ## Related Functions
 - theme_admin_footer_function()

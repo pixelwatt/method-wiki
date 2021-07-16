@@ -4,14 +4,16 @@ sidebar_position: 1
 
 # Welcome
 
-Welcome to the Method wiki. I've taken a lot of cues from the [WordPress Codex](https://developer.wordpress.org/), especially for method documentation, so hopefully this provides you with a solid knowledgebase to work from. This is currently a work in progress, so some documentation may be missing.
+Welcome to the Method wiki. This is currently a work in progress, so some documentation may be missing.
 
 ## Getting Started
 
 - [About Method](/docs/getting-started/about_method)
 - [Installation](/docs/getting-started/installation)
+- [Development Workflow Overview](/docs/getting-started/template-building)
 - [File Structure Overview](/docs/getting-started/file-organization)
 - [Functions.php Structure](/docs/getting-started/functions-structure)
+- [Limitations & Known Issues](/docs/getting-started/known-issues)
 
 ## References
 - [Method_Layout Class Reference](/docs/method-layout/class-reference)
@@ -23,8 +25,14 @@ Welcome to the Method wiki. I've taken a lot of cues from the [WordPress Codex](
 
 ## Guides
 
-- [Using The Customizer Instad of a Theme Options Page](/docs/guides/using-the-customizer)
+- [Using The Customizer Instead of a Theme Options Page](/docs/guides/using-the-customizer)
 - [Upgrading Theme Components](/docs/guides/upgrading-theme-components)
+- [Overriding Bootstap's SASS Variables](/docs/guides/bootstrap-variables)
+
+## Method Generator
+
+- [About / Installation](/docs/method-generator/getting-started)
+- [Globals Reference](/docs/method-generator/globals)
 
 ## Other
 

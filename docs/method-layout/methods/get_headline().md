@@ -26,27 +26,27 @@ _(string)_ _(optional)_ An optional string to fall back to if the meta key isn't
 
 ```php
 // Instead of this...
-$this->html .= ( get_meta( '_method_my_headline' ) ? '<h2>' . $this->format_tags( esc_html( $this->get_meta( '_method_my_headline' ) ) ) . '</h2>' : '' );
+$this->html .= ( $this->get_meta( '_method_my_headline' ) ? '<h2>' . $this->format_tags( esc_html( $this->get_meta( '_method_my_headline' ) ) ) . '</h2>' : '' );
 
 // You could do this...
-$this->html .= get_headline( '_method_my_headline', '<h2>', '</h2>' );
+$this->html .= $this->get_headline( '_method_my_headline', '<h2>', '</h2>' );
 ```
 
 ### Example 2
 
 ```php
 // Instead of this...
-$this->html .= '<h2>' . ( get_meta( '_method_my_headline' ) ? $this->format_tags( esc_html( $this->get_meta( '_method_my_headline' ) ) ) : 'Awesome Content' ) . '</h2>';
+$this->html .= '<h2>' . ( $this->get_meta( '_method_my_headline' ) ? $this->format_tags( esc_html( $this->get_meta( '_method_my_headline' ) ) ) : 'Awesome Content' ) . '</h2>';
 
 // You could do this...
-$this->html .= get_headline( '_method_my_headline', '<h2>', '</h2>', 'Awesome Content' );
+$this->html .= $this->get_headline( '_method_my_headline', '<h2>', '</h2>', 'Awesome Content' );
 ```
 
 ### Example 3
 
 ```php
 // Instead of this...
-$this->html .= ( get_meta( '_method_employee_title' ) ? '<p class="employee-meta mb-0">Job Title: ' . $this->format_tags( esc_html( $this->get_meta( '_method_employee_title' ) ) ) . '</p>' : '' );
+$this->html .= ( $this->get_meta( '_method_employee_title' ) ? '<p class="employee-meta mb-0">Job Title: ' . $this->format_tags( esc_html( $this->get_meta( '_method_employee_title' ) ) ) . '</p>' : '' );
 
 // You could do this...
 $this->html .= get_headline( '_method_employee_title', '<p class="employee-meta mb-0">Job Title: ', '</p>' );

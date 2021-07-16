@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Method',
   tagline: 'A Developer Base Theme',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://pixelwatt.github.io',
+  baseUrl: '/method-wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'pixelwatt', // Usually your GitHub org/user name.
+  projectName: 'method-wiki', // Usually your repo name.
   themeConfig: {
     prism: {
       additionalLanguages: ['php'],
@@ -26,7 +26,7 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Dev Blog', position: 'left'},
         {
           href: 'https://github.com/pixelwatt/method',
           label: 'View on GitHub',
@@ -46,7 +46,7 @@ module.exports = {
             },
 			{
 				label: 'Generator Docs',
-				to: '/docs/intro',
+				to: '/docs/method-generator/getting-started',
 			  },
           ],
         },
