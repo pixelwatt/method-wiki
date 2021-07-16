@@ -14,7 +14,7 @@ function HomepageHeader() {
 		<img src="/method-wiki/img/front-logo.svg" id="front-logo" width="410" />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div id="frontHeroButtons" className={styles.buttons}>
 		  <Link
             className="button button--front button--lg"
             to="https://github.com/pixelwatt/method/releases">

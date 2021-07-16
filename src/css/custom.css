@@ -91,10 +91,10 @@ a.button--front {
   }
 
   @media (max-width: 996px) {
-	  .buttons_src-pages- {
+	  #frontHeroButtons {
 		display: block !important;
 	  }
-	  a.button {
+	  #frontHeroButtons a.button {
 		  margin-bottom: 8px;
 	  }
   }
