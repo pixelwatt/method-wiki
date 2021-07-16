@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pixelwatt.github.io/blog</id>
+    <title>Method Blog</title>
+    <updated>2021-07-13T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pixelwatt.github.io/blog"/>
+    <subtitle>Method Blog</subtitle>
+    <icon>https://pixelwatt.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[And We're Live]]></title>
+        <id>and-were-live</id>
+        <link href="https://pixelwatt.github.io/method-wiki/blog/and-were-live"/>
+        <updated>2021-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After greatly underestimating the number of pages that would be needed to adequately document Method and Method Generator, the documentation site is finally live! Currently, there are a number of missing items, inconsistencies in format, etc, but this should be enough to gain a sound understanding of how the project works and more importantly, how to get up and running. Check back over the next few weeks for frequent updates, as now that this thing is live, I can begin the process of frantically editing all the content.]]></summary>
+    </entry>
+</feed>

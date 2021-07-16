@@ -1,0 +1,1 @@
+(self.webpackChunkmethod_docs=self.webpackChunkmethod_docs||[]).push([[9278],{5268:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/method-wiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
