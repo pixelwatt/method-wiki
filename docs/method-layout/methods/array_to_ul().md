@@ -1,8 +1,12 @@
 `public function array_to_ul( $array, $class = '' )`
 
-This method takes an indexed array and builds the HTML for an unordered list, with each array item having its own list item. Please be aware that $array is first passed through the maybe_unserialize() function (to support passing serialized post meta to the method).
+This method takes an indexed array and builds the HTML for an unordered list, with each array value having its own list item.
 
-The contents of each array index are passed through esc_html(), and then the format_tags() method (allowing for basic content formatting without supporting raw HTML)
+:::caution Only Pass Trusted Input
+
+Please be aware that $array is first passed through the [maybe_unserialize()](https://developer.wordpress.org/reference/functions/maybe_unserialize/) function (to support passing serialized post meta to the method). The contents of each array index are passed through [esc_html()](https://developer.wordpress.org/reference/functions/esc_html/), and then the [format_tags()](/docs/method-layout/methods/format_tags()) method (allowing for basic content formatting without supporting raw HTML)
+
+:::
 
 ***
 
@@ -13,6 +17,12 @@ _(mixed)_ _(required)_ An indexed array or serialized indexed array to convert i
   
 - **$class**  
 _(string)_ _(optional)_ A CSS class for the unordered list.  
+
+***
+
+## Return
+
+_(string)_ If that passed value for $array is a valid array and is not empty, this method returns the html markup for an unordered list, with each processed value of the passed array wrapped in `<li>...</li>`. If the provided value for $array is not an array, or is empty, the method returns an empty string.  
   
 ***
 

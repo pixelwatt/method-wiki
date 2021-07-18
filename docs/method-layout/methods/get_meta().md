@@ -1,6 +1,6 @@
 `public function get_meta( $key )`
 
-This method allows you to quickly retrieve post meta from the current post. If the meta key doesn't exist, or is empty, the method returns false. If the meta key you wish to retrive is an array, use the [get_serialized_meta()](https://github.com/pixelwatt/method/wiki/Method-Reference:-get_serialized_meta()) method instead, as this method will not unserialize retrieved meta values.
+This method allows you to quickly retrieve post meta from the current post. If the meta key you wish to retrive is an array, use the [get_serialized_meta()](/docs/method-layout/methods/get_serialized_meta()) method instead, as this method will not unserialize retrieved meta values.
 
 ***
 
@@ -9,6 +9,12 @@ This method allows you to quickly retrieve post meta from the current post. If t
 - **$key**  
 _(string)_ _(required)_ The meta key to pull from the $meta property (where all meta for the current post is stored)  
   
+***
+
+## Return
+
+If the passed meta key exists, this method will return the value of that key. If the meta key doesn't exist, or is empty, the method returns false.  
+
 ***
 
 ## Example

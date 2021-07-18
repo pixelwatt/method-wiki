@@ -1,6 +1,6 @@
 `public function load_meta( int $id )`
 
-This method loads all post meta for the provided post ID into the $loaded_meta class property. This is useful when looping through posts for a layout component displayed on a single post, and does not require existing post meta values to be requiried. As with meta for the current post (if building a layout for a single post), methods are provided to assist in using loaded post meta. These methods include: get_loaded_meta(), get_serialized_loaded_meta(), get_loaded_headline(), and get_loaded_content()
+This method loads all post meta for the provided post ID into the $loaded_meta class property. This is useful when looping through posts for a layout component displayed on a single post, and does not require existing post meta values to be requiried. As with meta for the current post (if building a layout for a single post), methods are provided to assist in using loaded post meta. These methods include: [get_loaded_meta()](/docs/method-layout/methods/get_loaded_meta()), [get_serialized_loaded_meta()](/docs/method-layout/methods/get_serialized_loaded_meta()), [get_loaded_headline()](/docs/method-layout/methods/get_loaded_headline()), and [get_loaded_content()](/docs/method-layout/methods/get_loaded_content())
 
 ***
 
@@ -9,9 +9,17 @@ This method loads all post meta for the provided post ID into the $loaded_meta c
 - **$id**  
 _(int)_ _(required)_ The post ID to retrieve post meta for.  
 
+***
+
+## Return
+
+This method does not return any value.
+
+***
+
 ## Example
 
-In the following example, we'll create a layout component for the build_components() method that displays a grid of employees and some basic information about them...
+In the following example, we'll create a layout component for the [build_components()](/docs/method-layout/methods/build_components()) method that displays a grid of employees and some basic information about them...
 
 ```php
 protected function build_components() {

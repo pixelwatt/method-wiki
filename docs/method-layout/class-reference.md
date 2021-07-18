@@ -6,6 +6,8 @@ sidebar_position: 1
 
 The Method_Layout class is a PHP class for building the front-end of your site in an efficient and performance-friendly way. Method_Layout is an abstract class, meaning it cannot be used directly and must instead be extended by a theme-specific layout class. Method includes a barebones extended class to use as a starting point, which can be found in `lib/class-theme-layout.php`
 
+***
+
 ## Properties
 
 - **$meta**  
@@ -31,6 +33,8 @@ The Method_Layout class is a PHP class for building the front-end of your site i
   
 - **$attr**  
 ( _array_ ) An array used to hold various bits of information about the current page being built. Examples include the post type of the post or archive being built, whether or not it is the front page, and taxonomy information. Layout components passed to the build_components() method are also stored in this array, under the _components_ key.
+
+***
 
 ## Methods
 

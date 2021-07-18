@@ -1,13 +1,21 @@
 `public function build_component( string $component )`
 
-This method returns the markup for a single layout component constructerd in the build_components() method and is intended to be used when building layouts directly inside theme template files. If init_page() has been called with the $standalone argument passed as false (or not passed), the method will return any markup that has been added to the class $html property by the requested component. If init_page() has been called with the $standalone argument passed as true, all markup added by the component to the $html, $modals, and $scripts properties will be returned.
+This method returns the markup for a single layout component constructerd in the [build_components()](/docs/method-layout/methods/build_components()) method and is intended to be used when building layouts directly inside theme template files.
 
 ***
 
 ## Arguments
 
 - **$component**  
-_(string)_ _(required)_ The layout component from the build_components() that you would like the method to return markup for.
+_(string)_ _(required)_ The layout component from the [build_components()](/docs/method-layout/methods/build_components()) that you would like the method to return markup for.
+
+***
+
+## Return
+
+_(string)_ If [init_page()](/docs/method-layout/methods/init_page()) has been called with the $standalone argument passed as false (or not passed), the method will return any markup that has been added to the class $html property by the requested component. If [init_page()](/docs/method-layout/methods/init_page()) has been called with the $standalone argument passed as true, all markup added by the component to the $html, $modals, and $scripts properties will be returned.  
+
+If the requested component doesn't exist, the method will return an empty string.  
 
 ***
 
