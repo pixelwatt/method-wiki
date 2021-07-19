@@ -1,1 +1,0 @@
-(self.webpackChunkmethod_docs=self.webpackChunkmethod_docs||[]).push([[4365],{7104:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/method-wiki/blog/tags","slug":"welcome","name":"welcome","count":1,"permalink":"/method-wiki/blog/tags/welcome"}')}}]);

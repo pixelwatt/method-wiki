@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>Method Blog</title>
-        <link>https://pixelwatt.github.io/blog</link>
+        <link>https://getmethod.io/blog</link>
         <description>Method Blog</description>
         <lastBuildDate>Tue, 13 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[And We're Live]]></title>
-            <link>https://pixelwatt.github.io/method-wiki/blog/and-were-live</link>
+            <link>https://getmethod.io/blog/and-were-live</link>
             <guid>and-were-live</guid>
             <pubDate>Tue, 13 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[After greatly underestimating the number of pages that would be needed to adequately document Method and Method Generator, the documentation site is finally live! Currently, there are a number of missing items, inconsistencies in format, etc, but this should be enough to gain a sound understanding of how the project works and more importantly, how to get up and running. Check back over the next few weeks for frequent updates, as now that this thing is live, I can begin the process of frantically editing all the content.]]></description>
