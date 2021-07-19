@@ -1,3 +1,3 @@
 `protected function build_layout()`
 
-This method is called by the build_page() method after all layout attributes have been determined. This method has no arguments and simply runs the build_header(), build_components(), and build_footer() methods. It most likely will never need to be called directly.
+This method is called by the build_page() method after all layout attributes have been determined. This method has no arguments and simply runs the [build_header()](/docs/method-layout/methods/build_header()), [build_components()](/docs/method-layout/methods/build_components()), and [build_footer()](/docs/method-layout/methods/build_footer()) methods. It most likely will never need to be called directly.

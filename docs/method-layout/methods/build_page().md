@@ -14,11 +14,34 @@ _(bool)_ _(optional)_ Whether or not you are building the layout of an archive. 
   
 ***
 
+## Return
+
+_(string)_ This method returns a string containing all markup for the current post or archive's layout.
+
+***
+
 ## Examples
 
-To generate the layout for a page, regardless of template:
+### Single Posts
+
+To generate the layout for a single post, page, or custom post type:
 
 ```php
-$layout = new MethodThemeLayout;
-echo $layout->build_page( $post->ID );
+<?php
+	get_header();
+	$layout = new MethodThemeLayout;
+	echo $layout->build_page( $post->ID );
+	get_footer();
+```
+
+### Archives
+
+To generate the layout for an archive (soon to be handled by a new build_archive() method instead):
+
+```php
+<?php
+	get_header();
+	$layout = new MethodThemeLayout;
+	echo $layout->build_page( '', true );
+	get_footer();
 ```

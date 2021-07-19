@@ -43,7 +43,7 @@ The Method_Layout class is a PHP class for building the front-end of your site i
 - [set_opts()](/docs/method-layout/methods/set_opts())
 - [determine_attributes()](/docs/method-layout/methods/determine_attributes())
 - [build_header()](/docs/method-layout/methods/build_header())
-- [build_footer()](#)
+- [build_footer()](/docs/method-layout/methods/build_footer())
 - [build_components()](/docs/method-layout/methods/build_components())
 
 ### Post Meta Methods

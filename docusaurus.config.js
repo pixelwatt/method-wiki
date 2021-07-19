@@ -2,8 +2,8 @@
 module.exports = {
   title: 'Method',
   tagline: 'A Developer Base Theme',
-  url: 'https://pixelwatt.github.io',
-  baseUrl: '/method-wiki/',
+  url: 'https://getmethod.io',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
@@ -34,6 +34,12 @@ module.exports = {
         },
       ],
     },
+	gtag: {
+		// You can also use your "G-" Measurement ID here.
+		trackingID: 'G-P91490XJY5',
+		// Optional fields.
+		anonymizeIP: true, // Should IPs be anonymized?
+	},
     footer: {
       style: 'dark',
       links: [
