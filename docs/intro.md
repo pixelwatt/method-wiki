@@ -25,9 +25,9 @@ Welcome to the Method wiki. This is currently a work in progress, so some docume
 
 ## Guides
 
-- [Using The Customizer Instead of a Theme Options Page](/docs/guides/using-the-customizer)
+- [Using The Customizer Instead of a Theme Options Page](/docs/guides/overrides/using-the-customizer)
 - [Upgrading Theme Components](/docs/guides/upgrading-theme-components)
-- [Overriding Bootstap's SASS Variables](/docs/guides/bootstrap-variables)
+- [Overriding Bootstap's SASS Variables](/docs/guides/overrides/bootstrap-variables)
 
 ## Method Generator
 
