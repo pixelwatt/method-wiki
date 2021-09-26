@@ -4,9 +4,16 @@
         <title>Method Blog</title>
         <link>https://getmethod.io/blog</link>
         <description>Method Blog</description>
-        <lastBuildDate>Tue, 13 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Method v1.3.4 Released]]></title>
+            <link>https://getmethod.io/blog/method-1-3-4</link>
+            <guid>method-1-3-4</guid>
+            <pubDate>Sun, 26 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Method and Method Generator v1.3.4 are now available. This release adds support for easily adding new format tags without the need to edit Method's layout class directly, adds support for adding layout class documentation to the admin dialog using a new action, and adds optional $fallback arguments to the getmeta()), getloadedmeta()), and getoption()) methods.]]></description>
+        </item>
         <item>
             <title><![CDATA[And We're Live]]></title>
             <link>https://getmethod.io/blog/and-were-live</link>

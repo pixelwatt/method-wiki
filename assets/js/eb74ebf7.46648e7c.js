@@ -1,0 +1,1 @@
+(self.webpackChunkmethod_docs=self.webpackChunkmethod_docs||[]).push([[9637],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Method v1.3.4 Released","permalink":"/blog/method-1-3-4"},{"title":"And We\'re Live","permalink":"/blog/and-were-live"}]}')}}]);
