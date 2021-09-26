@@ -16,4 +16,8 @@ This WordPress plugin implements a system for displaying alerts on specific page
 
 ***
 
-## Installation
+:::note Method Documentation Incomplete
+
+Check back soon for a list of arguments, return values, and an example.
+
+:::

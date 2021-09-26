@@ -21,6 +21,33 @@ html[data-theme='dark'] {
 	--ifm-color-primary: #4BFD9F;
 }
 
+span.version-badge {
+	display: inline-block;
+	background-color: #FD4BA9;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.875em;
+	border-radius: 0.3215em;
+	padding: 0 0.375em;
+}
+
+h2 span.version-badge {
+	font-size: 0.5em;
+	padding: 0.25em 0.375em;
+	vertical-align: middle;
+	margin-left: 0.25em;
+}
+
+html[data-theme='dark'] span.version-badge {
+	background-color: var(--ifm-color-primary);
+	color: #18191A;
+}
+
+ul.table-of-contents span.version-badge {
+	display: none;
+	visibility: hidden;
+}
+
 .hero--primary {
 	background-color: #4BFD9F;
 }

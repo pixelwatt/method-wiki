@@ -9,6 +9,9 @@ This method allows you to quickly retrieve post meta from the current post. If t
 - **$key**  
 _(string)_ _(required)_ The meta key to pull from the $meta property (where all meta for the current post is stored)  
   
+- **$fallback** <span class="version-badge">v1.3.4+</span>  
+_(string)_ _(optional)_ An optional string to fall back to if the loaded meta key isn't set or is empty. If a fallback value is not provided and the key isn't set or is empty, the method will return false. If used, the $fallback string **will not** be passed through the format_tags() class method, so you can include HTML markup as needed.
+  
 ***
 
 ## Return

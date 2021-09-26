@@ -9,6 +9,9 @@ This method allows you to quickly retrieve the value for an individual theme opt
 - **$key**  
 _(string)_ _(required)_ The options key to pull from the $opts property (where all theme options are stored)  
   
+ - **$fallback** <span class="version-badge">v1.3.4+</span>  
+_(string)_ _(optional)_ An optional string to fall back to if the loaded option key isn't set or is empty. If a fallback value is not provided and the key isn't set or is empty, the method will return false. If used, the $fallback string **will not** be passed through the format_tags() class method, so you can include HTML markup as needed.
+  
 ***
 
 ## Return
